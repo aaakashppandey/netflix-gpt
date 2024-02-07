@@ -3,6 +3,17 @@
 - Install Tailwind CSS
 - Login Form
 - SignUp Form
+- Routing
+- Form validations
+- useRef hook
+- Initialized Firebase 
+  - firebase login
+  - firebase init
+    - configure the deployment process
+  - firebase deploy
+- deploying our app to production
+
+- Create Authentication in firebase
 
 # Features
 - Login/ SignUp Form 
