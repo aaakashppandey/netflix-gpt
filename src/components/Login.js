@@ -13,14 +13,16 @@ const Login = () => {
     setIsSignIn(!isSignIn);
   };
 
-  const handleValidate = () => {
+  const handleValidate = (e) => {
+    console.log()
+    e.preventDefault()
     const message = checkValidData(email.current.value, password.current.value);
     setErrorMessage(message);
 
     if (message) return;
 
     if (!isSignIn) {
-      createUserWithEmailAndPassword(auth, email, password)
+      createUserWithEmailAndPassword(auth, email.current.value, password.current.value)
         .then((userCredential) => {
           // Signed up
           const user = userCredential.user;
@@ -28,6 +30,8 @@ const Login = () => {
           // ...
         })
         .catch((error) => {
+          console.log(error);
+
           const errorCode = error.code;
           const errorMessage = error.message;
           setErrorMessage(errorCode + "-" + errorMessage);
