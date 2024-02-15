@@ -12,8 +12,12 @@
     - configure the deployment process
   - firebase deploy
 - deploying our app to production
-
 - Create Authentication in firebase
+- Created our redux store
+- used onAuthStateChnaged given by firebase
+- Update profile
+- Sign in/Sign Out feature 
+- 
 
 # Features
 - Login/ SignUp Form 
