@@ -20,6 +20,11 @@
 - TMDB for latest movie database.
 - Always constants whenever we try to use any String which hard coded.
 
+- Cretaed Custom Hooks for fetching data.
+- We Created Store for movies data and trailer also.
+- Updated the store with the data.
+- Planning for main conatine and secondary conatiner.
+
 # Bug Fix
 - Display name
 - Photo URL
