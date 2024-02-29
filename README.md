@@ -24,7 +24,10 @@
 - We Created Store for movies data and trailer also.
 - Updated the store with the data.
 - Planning for main conatine and secondary conatiner.
-
+ 
+- (Feature) Multi-lingual dropdown
+- Integrate OpenAI 
+ - translate languages
 # Bug Fix
 - Display name
 - Photo URL
