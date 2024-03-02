@@ -8,8 +8,7 @@ export const API_CONSTANTS = {
   url: "https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZWI1ZmVmNGU3MmRjNDlmNjE4ZDRiOTA5ZjhmYmE3OSIsInN1YiI6IjY1Y2UyMmE2OTkyNTljMDE2MzI1NjJlMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Rsy-0mIvbPX8Ax62LQQNxRn2smem99QJ-926CpyWt5E",
+    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
   },
 };
 
